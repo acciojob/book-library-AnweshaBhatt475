@@ -8,12 +8,11 @@
 body {
     background-color: #f8f8f8;
     font-family: Arial, sans-serif;
-    
+    text-align: center;
 }
 
-h2 {
+h1 {
     margin-bottom: 20px;
-	text-align:center;
 }
 
 .book-library {
@@ -21,11 +20,11 @@ h2 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	min-height:300px;
-	width:400px;
-	margin:30px;
-	
-    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 30px auto;
 }
 
 .book {
@@ -35,7 +34,7 @@ h2 {
     text-align: center;
     width: 250px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-
+    margin-bottom: 20px;
 }
 
 .book img {
@@ -45,15 +44,22 @@ h2 {
     margin-bottom: 10px;
 }
 
+.book h2 {
+    margin-bottom: 10px;
+}
 
 .author {
     color: #777777;
+    margin-bottom: 10px;
+}
+
+.price-block {
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 4px;
 }
 
 .price {
-    color: #2ecc71;
     font-weight: bold;
-}
-button{
-	background-color:green;
 }
